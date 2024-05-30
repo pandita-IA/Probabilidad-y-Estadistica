@@ -5,6 +5,16 @@ from sympy import symbols, diff
 from sympy.solvers import solve
 
 
+
+"""
+2.14 Script de estimación por máxima verosimilitud
+Al igual que con el método de los momentos, para una distribución dada, la forma de estimar por momentos es siempre la misma. Por ejemplo, para una distribución normal, los parámetros µ y σ siempre se despejan igual.
+Para todas las distribuciones para las que se ha calculado el estimador de máxima verosimilitud, ya sea en clase o en los ejercicios, haz un programa en Python que tome como datos de
+entrada una variable que indique el tipo de distribución (de entre aquellas para las que hemos calculado los estimadores de máxima verosimilitud, ya sea en la parte teórica o en los ejercicios),
+y un array numpy que contenga los valores de la muestra y que devuelva la estimación de los parámetros correspondiente.
+"""
+
+
 def estimacion_maxima_verosimilitud(distribucion, valores_muestra):
     
     parametros = {}
